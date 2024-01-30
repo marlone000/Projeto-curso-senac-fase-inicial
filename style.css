@@ -9,12 +9,13 @@ body, ul, li, p {
     color: rgb(0, 0, 0);
 }header{
     display:flex;
-    background: rgb(240, 230, 88);
-    padding: 20px;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}.menu{
+    background: #FFC300;
+    padding: 5px;
+    align-items:stretch;
+    flex-wrap: nowrap;
+    justify-content: start;
+}
+.menu{
     display:flex;
 }.menu li {
     margin-left: 10px;
