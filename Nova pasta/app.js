@@ -15,7 +15,7 @@ const description =
    
    //    variação image 
 
-const images = ["berserk.png", "ghoul.png", "luffy.png"];
+const images = ["./IMG/berserk.png", "./IMG/luffy.png", "./IMG/boku-no-hero.png"];
    
 const headings = [
   
