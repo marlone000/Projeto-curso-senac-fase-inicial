@@ -71,3 +71,4 @@ arrRight.addEventListener('click', () => {
     // execute a função do slide 
     slide(id);
 });
+
