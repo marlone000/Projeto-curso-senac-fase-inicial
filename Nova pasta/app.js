@@ -1,5 +1,4 @@
 
-
 // Parte da image 
 
 const slider = 
