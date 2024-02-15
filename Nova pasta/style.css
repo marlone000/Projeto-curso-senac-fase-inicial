@@ -1,8 +1,4 @@
-.flex{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
+
 * {
     margin: 0;
     padding: 0;
@@ -124,7 +120,7 @@
 } 
 
 .rubrica {
-    background: linear-gradient #6420d1,#000000;
+    background: linear-gradient(rgba(8,8,8,0.027),#7f37c9);
     position: absolute;
     bottom: 0;
     left: 0;
