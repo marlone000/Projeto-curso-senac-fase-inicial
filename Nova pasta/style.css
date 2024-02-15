@@ -1,7 +1,7 @@
-body{
-    background-color: #7f37c9;
-}
 .flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 * {
     margin: 0;
@@ -31,12 +31,6 @@ body{
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
     background: #23232e;
     height: 8vh;
-  }
-  
-  main {
-    background: url("IMG/logo.jpg") no-repeat center center;
-    background-size: cover;
-    height: 92vh;
   }
   
   .nav-list {
