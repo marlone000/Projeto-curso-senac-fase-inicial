@@ -1,9 +1,20 @@
 body{
   background-image: url(/IMG/background.png);
 }
-.flex p{
- color: #fff;
+.flex ul{
+  color: #fff;
+}
+.flex img{
+  width: 500px;
+}
+.flex{
+ justify-content: space-around;
+ display: flex;
+ flex-wrap: wrap;
 
+}
+.flex h2{
+ color: #fff;
 }
 *, h1, h2, h3, p {
     margin: 0;
@@ -118,7 +129,7 @@ body{
     min-height: 30em;
     height: 100vh;
     position: relative;
-    background-image: url(IMG/berserk.png);
+    background-image: url(IMG/Bleach.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

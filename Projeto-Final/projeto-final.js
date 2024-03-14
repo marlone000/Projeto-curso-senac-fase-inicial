@@ -59,7 +59,7 @@ const description =
    
    //    variação image 
 
-const images = ["./IMG/berserk.png", "./IMG/luffy.png", "./IMG/boku-no-hero.png"];
+const images = ["./IMG/bleach.jpg", "./IMG/jujutsu.jpg", "./IMG/HxH.jpg"];
    
 const headings = [
   
