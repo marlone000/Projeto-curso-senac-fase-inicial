@@ -1,11 +1,8 @@
 body{
   background-image: url(/IMG/background.png);
 }
-.flex ul{
-  color: #fff;
-}
 .flex img{
-  width: 500px;
+  width: 400px;
 }
 .flex{
  justify-content: space-around;
