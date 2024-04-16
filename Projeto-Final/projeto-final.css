@@ -1,6 +1,12 @@
 body{
   background-image: url(/IMG/background.png);
 }
+.cabecalho{
+  background-color: #23232e;
+  border-top: 25px  solid #23232e;
+  border-bottom: 5px solid #23232e;
+  /*colocar menu para cima*/
+}
 .flex img{
   width: 400px;
 }
@@ -40,7 +46,9 @@ body{
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
     background: #23232e;
-    height: 8vh;
+    height: 8vh; 
+    border-top: 25px  solid #23232e;
+
   }
   
   .nav-list {
