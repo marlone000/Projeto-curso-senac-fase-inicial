@@ -21,7 +21,17 @@ background-image: url(background.png);
     list-style: none;
     font-size: 1.3rem;
     font-family: Arial;
-}h1{
+}
+a{
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(82, 18, 219, 0.534);
+    color: black;
+    border-radius: 10px;
+    padding: 10px 40px;
+    max-width: 100px;
+    text-align: center;
+}
+h1{
     text-align: center;
     margin-top: 5rem;
 }img{
