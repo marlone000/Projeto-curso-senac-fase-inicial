@@ -18,9 +18,7 @@ background-image: url(background.png);
     color: white;
     margin: 10px;
     padding: 10px;
-    list-style: none;
     font-size: 1.3rem;
-    font-family: Arial;
 }
 .a{
     backdrop-filter: blur(10px);
