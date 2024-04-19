@@ -1,0 +1,135 @@
+
+body{
+background-image: url(background.png);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+
+.logo-header{
+    width: 200px;
+}
+ p {
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    font-size: 1.3rem;
+    font-family: Arial;
+}
+.a{
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(82, 18, 219, 0.534);
+    color: black;
+    border-radius: 10px;
+    padding: 10px 40px;
+    max-width: 100px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    margin-top: 5rem;
+}img{
+    max-width: 100%;
+    display: block;
+}.flex{
+    border: 2px solid #2e104d;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.534);
+    color: black;
+    border-radius: 10px;
+    padding: 30px 40px;
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}.flex>div{
+    flex: 200px;
+    margin: 10px 10px;
+}
+/* Código CSS para o banner */
+.banner img{
+    width: 100%;
+    margin: 0 auto;
+}
+/* */
+
+    
+.lia {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  .lia:hover {
+    opacity: 0.7;
+  }
+  
+  .logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  
+  .itens-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #23232e;
+    height: 8vh;
+  }
+  
+  .footer-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .footer-list, .LI {
+    letter-spacing: 3px;
+    margin-left: 32px;
+  }
+  
+  @media (max-width: 999px) {
+    body {
+      overflow-x: hidden;
+    }
+    .footer-list {
+      position: absolute;
+      top: 8vh;
+      right: 0;
+      width: 50vw;
+      height: 92vh;
+      background: #23232e;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      transform: translateX(100%);
+      transition: transform 0.3s ease-in;
+      z-index: 100;
+    }
+    .footer-list, .LI {
+      margin-left: 0;
+      opacity: 0;
+    }
+  }
+  
+  .footer-list.active {
+    transform: translateX(0);
+  }
+  
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
