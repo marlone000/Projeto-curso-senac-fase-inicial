@@ -8,7 +8,6 @@ background-image: url(background.png);
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-
 }
 
 .logo-header{
@@ -22,7 +21,7 @@ background-image: url(background.png);
 }
 /*.a{
     backdrop-filter: blur(10px);
-    box-shadow: 0 0 10px rgba(82, 18, 219, 0.534);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.534);
     color: black;
     border-radius: 10px;
     padding: 10px 40px;
@@ -72,7 +71,6 @@ h1{
     text-transform: uppercase;
     letter-spacing: 4px;
   }
-  
   .itens-footer {
     display: flex;
     justify-content: space-around;
@@ -130,4 +128,9 @@ h1{
       transform: translateX(0);
     }
   }
-  
+  .navbar-expand-lg{
+    z-index: 5;
+  }
+.navbar{
+  height: 14vh;
+}
