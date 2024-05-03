@@ -20,7 +20,7 @@ background-image: url(background.png);
     padding: 10px;
     font-size: 1.3rem;
 }
-.a{
+/*.a{
     backdrop-filter: blur(10px);
     box-shadow: 0 0 10px rgba(82, 18, 219, 0.534);
     color: black;
@@ -28,7 +28,7 @@ background-image: url(background.png);
     padding: 10px 40px;
     max-width: 100px;
     text-align: center;
-}
+}*/
 h1{
     text-align: center;
     margin-top: 5rem;
