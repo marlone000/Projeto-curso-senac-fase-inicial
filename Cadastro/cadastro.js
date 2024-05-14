@@ -22,9 +22,9 @@ let msgError = document.querySelector('#msgError')
 let msgSuccess = document.querySelector('#msgSuccess')
 
 nome.addEventListener('keyup', () => {
-  if(nome.value.length <= 19){
+  if(nome.value.length <= 10){
     labelNome.setAttribute('style', 'color: red')
-    labelNome.innerHTML = 'Nome *Insira no minimo 20 caracteres'
+    labelNome.innerHTML = 'Nome *Insira no minimo 10 caracteres'
     nome.setAttribute('style', 'border-color: red')
     validNome = false
   } else {
@@ -36,9 +36,9 @@ nome.addEventListener('keyup', () => {
 })
 
 usuario.addEventListener('keyup', () => {
-  if(usuario.value.length <= 14){
+  if(usuario.value.length <= 10){
     labelUsuario.setAttribute('style', 'color: red')
-    labelUsuario.innerHTML = 'Usuário *Insira no minimo 15 caracteres'
+    labelUsuario.innerHTML = 'Usuário *Insira no minimo 10 caracteres'
     usuario.setAttribute('style', 'border-color: red')
     validUsuario = false
   } else {
