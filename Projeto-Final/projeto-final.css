@@ -1,6 +1,5 @@
-
 body{
-  background-image: url(/IMG/background.png);
+  background-color: #0e0c0c;
 }
 .cabecalho{
   border-top: 23px  solid;
@@ -8,7 +7,7 @@ body{
   /*colocar menu para cima*/
 }
 .flex img{
-  width: 400px;
+  width: 350px;
 }
 .flex{
  justify-content: space-around;
@@ -146,14 +145,14 @@ body{
 } 
 
 .rubrica {
-    background: linear-gradient(rgba(8,8,8,0.027),#7f37c9);
+    background: linear-gradient(rgba(68, 64, 71, 0.027),#7d5ba1);
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
     padding: 4em 1em 2em 1em;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Montserrat', 'Montserrat', Calibri, 'Montserrat', sans-serif;
 } 
 
 .seta-esquerda, .seta-direita {
