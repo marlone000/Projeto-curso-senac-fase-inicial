@@ -49,3 +49,24 @@
         </div>
 
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="card" style="width: 18rem;">
+          <img src="Bleach.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-light">Bleach</h5>
+            <p class="card-text text-light">Bleach" segue Ichigo Kurosaki, que ganha poderes de Shinigami. Ele luta contra Hollows e protege almas, explorando temas de vida e morte. Com personagens marcantes, batalhas intensas e um universo rico, "Bleach" cativou fãs globalmente e permanece influente no mundo dos animes e mangás.</p>
+            <a href="#" class="btn btn-dark ">Assista Aqui!</a>
+          </div>
