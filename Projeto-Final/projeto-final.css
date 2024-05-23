@@ -8,6 +8,8 @@ body{
 }
 .flex img{
   width: 350px;
+  margin: 32px;
+  padding: 24px;
 }
 .flex{
  justify-content: space-around;
