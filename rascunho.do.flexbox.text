@@ -52,6 +52,36 @@
 
 
 
+<div class="container">
+    <div class="row">
+      <section class="flex col-8">
+        <div class="container text-center">
+          <img src="Bleach.jpg" alt="" class="img-fluid">
+          <div class="row justify-content-start">
+            <p class="fs-4 col">Nome em Português: Bleach</p>
+            <p class="fs-3 col">Autor: Tite Kubo</p>
+            <p class="fs-4 text-start">Nome em japonês: (ブリーチ) Burīchi</p>
+            <p class="fs-4 text-start">Capítulos do Mangá: 685 capítulos Manga: Terminou em agosto de 2016.</p>
+            <p class="fs-4 col text-start">Quantidade de episódios: 366 episódios e ainda não acabou.</p>
+            <p class="fs-4 text-start"> Sinopse: Ichigo Kurosaki é um estudante de ensino médio incomum: desde pequeno,
+              ele consegue ver fantasmas. Sua vida muda completamente quando ele e suas duas irmãs são atacados por um
+              espírito maligno e recebem ajuda de uma shinigami, chamada Rukia Kuchiki.</p>
+          </div>
+        </div>
+      </section>
+      <div class="col-md-4">
+        <br>
+        <div class="card" style="width: 18rem;">
+          <img src="Bleach.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-light">Bleach</h5>
+            <p class="card-text text-light">Bleach" segue Ichigo Kurosaki, que ganha poderes de Shinigami. Ele luta contra Hollows e protege almas, explorando temas de vida e morte. Com personagens marcantes, batalhas intensas e um universo rico, "Bleach" cativou fãs globalmente e permanece influente no mundo dos animes e mangás.</p>
+            <a href="#" class="btn btn-dark ">Assista Aqui!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
