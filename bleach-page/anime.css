@@ -1,4 +1,4 @@
- a {
+ a, h1 {
     color: #fff!important;
     text-decoration: none!important;
     transition: 0.3s;
@@ -115,7 +115,6 @@
     padding: 10px;
     font-size: 1.3rem;
 }
-
 img{
     max-width: 100%;
     display: block;
