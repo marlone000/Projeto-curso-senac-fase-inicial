@@ -99,6 +99,11 @@
   }
 
 /* Não mecher nesse css abaixo até o ( lia:houver) ENTENDIDO😊 */
+.section{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
 .body{
     background-image: url(background.png);
     margin: 0;
@@ -115,17 +120,16 @@
     padding: 10px;
     font-size: 1.3rem;
 }
+/*essa img é do nav*/
 img{
     max-width: 100%;
     display: block;
 }
 .flex{
   background-color: #0e0c0c;
-    border: 2px solid #b2a5a5;
     backdrop-filter: blur(10px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.534);
     color: black;
-    border-radius: 10px;
     padding: 30px 40px;
     display:flex;
     flex-wrap: wrap;
