@@ -8,17 +8,18 @@ body{
 }
 .flex img{
   width: 350px;
-  margin: 32px;
-  padding: 24px;
+  margin: 17px;
+  padding-top: 80px;
 }
 .flex{
- justify-content: space-around;
+ justify-content: space-between;
  display: flex;
  flex-wrap: wrap;
-
 }
 .flex h2{
  color: #fff;
+ text-align: center;
+
 }
 *, h1, h2, h3, p {
     margin: 0;
@@ -135,7 +136,7 @@ body{
     min-height: 30em;
     height: 100vh;
     position: relative;
-    background-image: url(IMG/Bleach.jpg);
+    background-image: url(IMG/evangeliom.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

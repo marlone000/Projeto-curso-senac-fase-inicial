@@ -59,15 +59,13 @@ const description =
    
    //    variação image 
 
-const images = ["./IMG/bleach.jpg", "./IMG/jujutsu.jpg", "./IMG/HxH.jpg"];
+const images = ["./IMG/evangeliom.jpg", "./IMG/tokyo_revengers.jpg", "./IMG/tokyoghoul.jpg"];
    
-const headings = ["Bleach", "Jujutsu Kaisen", "Hunter x Hunter"
+const headings = ["Evangelion", "Tokyo Revengers", "Tokyo Ghoul"
   
 ]; 
 
-const descriptions = ["Ichigo Kurosaki (黒崎 一護 Kurosaki Ichigo?) é um personagem fictício e protagonista da série de mangá Bleach e suas adaptações criado por Tite Kubo", 
-"Jujutsu Kaisen (呪じゅ術じゅつ廻かい戦せん? tradução aproximada Batalha de Feitiçaria) é um mangá japonês escrito e ilustrado por Gege Akutami",
-"Hunter X Hunter (ハンター×ハンター Hantā X Hantā?, pronúncia japonesa da expressão inglesa Hunter X Hunter,é uma série de mangá escrita e ilustrada por Yoshihiro Togashi"
+const descriptions = ["Evangelion é um anime muito cativante que te prende em um universo totalmente oposto de nossas realidades", "Tokyo Revengers mostra a dualidade do protagonista seu lado emotivo e suas atitutes de ajudar a todos de forma racional sem pensar em si mesmo" , "Tokyo Ghoul esse protagonista sofre um acidente e colocaram um orgão da assassina nele isso mudou a sua vida para sempre"
 ]; 
 
 // id do slider 
