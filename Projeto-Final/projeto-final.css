@@ -148,7 +148,8 @@ body{
 } 
 
 .rubrica {
-    background: linear-gradient(rgba(68, 64, 71, 0.027),#7d5ba1);
+  background: linear-gradient(rgba(255, 255, 255, 0.018),#a773ea);
+    /* background: linear-gradient(rgba(68, 64, 71, 0.027),#7d5ba1); */
     position: absolute;
     bottom: 0;
     left: 0;
