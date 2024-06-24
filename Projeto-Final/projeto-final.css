@@ -148,7 +148,8 @@ body{
 } 
 
 .rubrica {
-    background: linear-gradient(rgba(68, 64, 71, 0.027),#7d5ba1);
+  background: linear-gradient(rgba(255, 255, 255, 0.001),#a773ea);
+    /* background: linear-gradient(rgba(68, 64, 71, 0.027),#7d5ba1); */
     position: absolute;
     bottom: 0;
     left: 0;
@@ -228,7 +229,7 @@ footer {
     background-color: var(--color-neutral-10);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 3rem 3.5rem;
+    padding: 3rem;
 }
 
 #footer_contacts h1 {
