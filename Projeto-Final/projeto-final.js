@@ -65,7 +65,7 @@ const headings = ["Evangelion", "Tokyo Revengers", "Tokyo Ghoul"
   
 ]; 
 
-const descriptions = ["Evangelion é um anime muito cativante que te prende em um universo totalmente oposto de nossas realidades", "Tokyo Revengers mostra a dualidade do protagonista seu lado emotivo e suas atitutes de ajudar a todos de forma racional sem pensar em si mesmo" , "Tokyo Ghoul esse protagonista sofre um acidente e colocaram um orgão da assassina nele isso mudou a sua vida para sempre"
+const descriptions = ["Evangelion é um anime muito cativante que te preende em um universo totalmente oposto de nossas realidades", "Tokyo Revengers mostra a dualidade do protagonista seu lado emotivo e suas atitutes de ajudar a todos de forma racional sem pensar em si mesmo" , "Tokyo Ghoul esse protagonista sofre um acidente e colocaram um orgão da assassina nele isso mudou a sua vida para sempre"
 ]; 
 
 // id do slider 

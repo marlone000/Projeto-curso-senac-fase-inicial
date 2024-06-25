@@ -60,7 +60,6 @@ body{
     transform: translateY(-50%);
     font-size: 20px;
 }
-
 .remember-forgot label input{
     accent-color: black;
     margin-right: 3px;
