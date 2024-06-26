@@ -10,14 +10,14 @@
 </head>
 <body>
     <div class="wrapper">
-        <form method="post" action="inserir.php" enctype="multipart/form-data">
+        <form method="post" action="validar.php" enctype="multipart/form-data">
             <h1>Login</h1>
             <div class="input-box">
-                <input type="text" placeholder="Usuario" id="usuario">
+                <input type="text" placeholder="Usuario" id="usuario" name="usuario">
                 <i class='bx bxs-user'></i>
             </div>
             <div class="input-box">
-                <input type="password" placeholder="Senha" id="senha" required>
+                <input type="password" placeholder="Senha" id="senha" name="senha" required>
                 <i class='bx bxs-lock-alt'></i>
             </div>
              <button type="submit" class="btn">Login</button>
