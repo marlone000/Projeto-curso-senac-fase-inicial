@@ -15,7 +15,7 @@
   <!-- cabecalho inicio -->
   <header class="cabecalho">
     <nav>
-      <img src="/ANIMES/IMG/logo.png" alt="Imagem do anome Bleach"> <a class="logo" href="#"></a>
+      <img src="/ANIMES/IMG/logo.png" alt="Imagem do logo"> <a class="logo" href="#"></a>
       <div class="mobile-menu">
         <div class="line1"></div>
         <div class="line2"></div>

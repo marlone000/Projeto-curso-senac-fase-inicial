@@ -19,14 +19,14 @@ body{
 .flex h2{
  color: #fff;
  text-align: center;
-
+ 
 }
 *, h1, h2, h3, p {
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;   font-optical-sizing: auto;   font-weight: 600;   font-style: normal;
   }
-  
+ 
   a {
     color: #fff;
     text-decoration: none;
@@ -35,13 +35,13 @@ body{
   a:hover {
     opacity: 0.7;
   }
-  
+ 
   .logo {
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 4px;
   }
-  
+ 
   nav {
     z-index: 60!important;
     display: flex;
@@ -49,25 +49,25 @@ body{
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
     background: #23232e;
-    height: 8vh; 
+    height: 8vh;
 }
-  
+ 
   .nav-list {
     list-style: none;
     display: flex;
   }
-  
+ 
   .nav-list li {
     letter-spacing: 3px;
     margin-left: 32px
   }
-  
+ 
   .mobile-menu {
     display: none;
     cursor: pointer;
     z-index: 2;
   }
-  
+ 
   .mobile-menu div {
     width: 32px;
     height: 2px;
@@ -75,7 +75,7 @@ body{
     margin: 8px;
     transition: 0.3s;
   }
-  
+ 
   @media (max-width: 999px) {
     body {
       overflow-x: hidden;
@@ -102,11 +102,11 @@ body{
       display: block;
     }
   }
-  
+ 
   .nav-list.active {
     transform: translateX(0);
   }
-  
+ 
   @keyframes navLinkFade {
     from {
       opacity: 0;
@@ -117,21 +117,21 @@ body{
       transform: translateX(0);
     }
   }
-  
+ 
   .mobile-menu.active .line1 {
     transform: rotate(-45deg) translate(-8px, 8px);
   }
-  
+ 
   .mobile-menu.active .line2 {
     opacity: 0;
   }
-  
+ 
   .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
   }
-
+ 
   /*part image*/
-
+ 
  .image-slider {
     min-height: 30em;
     height: 100vh;
@@ -141,12 +141,12 @@ body{
     background-position: center;
     background-size: cover;
     transition: 0.3s;
-} 
-
+}
+ 
 .image-slider * {
     box-sizing: border-box;
-} 
-
+}
+ 
 .rubrica {
   background: linear-gradient(rgba(255, 255, 255, 0.001),#a773ea);
     /* background: linear-gradient(rgba(68, 64, 71, 0.027),#7d5ba1); */
@@ -157,8 +157,8 @@ body{
     padding: 4em 1em 2em 1em;
     text-align: center;
     font-family: 'Montserrat', 'Montserrat', Calibri, 'Montserrat', sans-serif;
-} 
-
+}
+ 
 .seta-esquerda, .seta-direita {
     background: #fff;
     position: absolute;
@@ -171,52 +171,52 @@ body{
     align-items: center;
     cursor: pointer;
     transition: 0.3s;
-} 
-
-.seta-esquerda:hover, 
+}
+ 
+.seta-esquerda:hover,
 .seta-direita:hover {
     background: #6320d1;
     color: #fff;
 }
-
+ 
 .seta-esquerda {
     left: 1em;
-} 
-
-
+}
+ 
+ 
 .seta-direita {
     right: 1em;
-} 
-
+}
+ 
 .image-fade {
     animation: imgFade 0.5s ease-in-out;
-} 
-
+}
+ 
 @keyframes imgFade {
     0% {opacity: 0;}
     100% {opacity: 1;}
-} 
-
-
-
-
-
-/*part footer*/
-
+}
+ 
+ 
+ 
+ 
+ 
+/* part footer
+ 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
-
+ 
 :root {
     --color-neutral-0: #0e0c0c;
     --color-neutral-10: #171717;
     --color-neutral-30: #a8a29e;
     --color-neutral-40: #f5f5f5;
-
+ 
 }
-
+ 
 main {
     height: 80vh;
 }
-
+ 
 footer {
     width: 100%;
     color: var(--color-neutral-40);
@@ -224,14 +224,14 @@ footer {
 .footer-link {
     text-decoration: none;
 }
-
+ 
 #footer_content {
     background-color: var(--color-neutral-10);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 3rem;
 }
-
+ 
 #footer_contacts h1 {
     margin-bottom: 0.75rem;
 }
@@ -241,39 +241,39 @@ footer {
     gap: 0.75rem;
     list-style: none;
 }
-
+ 
 .footer-list .footer-link {
     color: var(--color-neutral-30);
     transition: all 0.4s;
 }
-
+ 
 .footer-list .footer-link:hover {
     color: #7f37c9;
 }
-
+ 
 #footer_subscribe {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
 }
-
+ 
 #footer_subscribe p {
     color: var(--color-neutral-30);
 }
-
+ 
 #input_group {
     display: flex;
     align-items: center;
     background-color: var(--color-neutral-0);
     border-radius: 4px;
 }
-
+ 
 #input_group input {
     all: unset;
     padding: 0.75rem;
     width: 100%;
 }
-
+ 
 #input_group button {
     background-color: #7f37c9;
     border: none;
@@ -285,11 +285,11 @@ footer {
     cursor: pointer;
     transition: all 0.4s;
 }
-
+ 
 #input_group button:hover {
     opacity: 0.8;
 }
-
+ 
 #footer_copyright {
     display: flex;
     justify-content: center;
@@ -298,17 +298,96 @@ footer {
     padding: 1.5rem;
     font-weight: 100;
 }
-
+ 
 @media screen and (max-width: 768px) {
     #footer_content {
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
 }
-
+ 
+@media screen and (max-width: 426px) {
+    #footer_content {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+    }
+} */
+ 
+/* parte do rodape*/
+ 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+:root {
+    --color-neutral-0: #0e0c0c;
+    --color-neutral-10: #171717;
+    --color-neutral-30: #a8a29e;
+    --color-neutral-40: #f5f5f5;
+ 
+}
+ 
+main {
+    height: 80vh;
+}
+ 
+footer {
+    width: 100%;
+    color: var(--color-neutral-40);
+}
+.footer-link {
+    text-decoration: none;
+}
+ 
+#footer_content {
+    background-color: var(--color-neutral-10);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 3rem 0rem 0rem 3.5rem;
+}
+ 
+#footer_contacts h1 {
+    margin-bottom: 0.75rem;
+}
+ 
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+}
+ 
+.footer-list .footer-link {
+    color: var(--color-neutral-30);
+    transition: all 0.4s;
+}
+ 
+.footer-list .footer-link:hover {
+    color: #7f37c9;
+}
+ 
+#footer_copyright {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+    font-size: 0.9rem;
+    padding: 1rem;
+    font-weight: 100;
+}
+ 
+@media screen and (max-width: 768px) {
+    #footer_content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+ 
 @media screen and (max-width: 426px) {
     #footer_content {
         grid-template-columns: repeat(1, 1fr);
         padding: 3rem 2rem;
     }
 }
+.footer-letter h3,a,h1{
+color: #fff;
+}
+.footer-letter p{
+  color: #7f37c9;
+  }

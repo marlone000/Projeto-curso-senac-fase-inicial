@@ -15,8 +15,6 @@ if (mysqli_num_rows($query) != 1) {
     $resultado = mysqli_fetch_assoc($query);
 }
 
-
-
 mysqli_close($conexao);
 header('location:../Projeto-Final/projeto-final.html');
 
