@@ -15,15 +15,15 @@
 <body>
     <header class="cabecalho">
         <nav>
-          <img src="IMG/logo.png" alt=""> <a class="logo" href=""></a>
+          <a class="logo" href="projeto-final.php"><img src="IMG/logo.png" alt="logo de um origami escrito anime code"> </a>
           <div class="mobile-menu">
             <div class="line1"></div>
             <div class="line2"></div>
             <div class="line3"></div>
           </div>
           <ul class="nav-list ">
-            <li><a href="projeto-final.html">Início</a></li>
-            <li><a href="#">Sobre</a></li>
+            <li><a href="projeto-final.php">Início</a></li>
+            <li><a href="/sobre/sobre.php">Sobre</a></li>
           </ul>
         </nav>
       </header>
@@ -40,81 +40,81 @@
         </div>
     </section>
 <!-- conteudo site inicio -->
-    
+   
 <section class="flex">
     <div>
-        <a href="../ANIMES/vinland.html">
+        <a href="../ANIMES/vinland.php">
             <img src="IMG/viland_saga.jpg" alt="imagem do personagem Torfin do anime Villand Saga" class="img-fluid">
             <h2>Viland Saga</h2>
         </a>
     </div>
     <div>
-        <a href="../ANIMES/bleach.html">
+        <a href="../ANIMES/bleach.php">
             <img src="IMG/Bleach.jpg" alt="Foto do anime Bleach" class="img-fluid">
             <h2>Bleach</h2>
         </a>
     </div>
     <div>
-        <a href="../ANIMES/onePiece.html">
+        <a href="../ANIMES/onePiece.php">
             <img src="IMG/one piece.jpg" alt="Foto do anime One piece" class="img-fluid">
             <h2>One Piece</h2>
         </a>
     </div>
     <div>
-        <a href="../ANIMES/naruto.html">
+        <a href="../ANIMES/naruto.php">
             <img src="IMG/Naruto.jpg" alt="Foto do anime Naruto" class="img-fluid">
             <h2>Naruto</h2>
         </a>
     </div>
     <div>
-        <a href="../ANIMES/evangelion.html">
+        <a href="../ANIMES/evangelion.php">
             <img src="IMG/evangeliom.jpg" alt="Foto do anbime Evangelion" class="img-fluid">
             <h2>Evangelion</h2>
         </a>
     </div>
     <div>
-        <a href="../ANIMES/hxh.html">
+        <a href="../ANIMES/hxh.php">
             <img src="IMG/HxH.jpg" alt="Foto do anime Hunter X Hunter" class="img-fluid">
             <h2>Hunter X Hunter</h2>
         </a>
     </div>
     <div>
-        <a href="../ANIMES/DBZ.html">
+        <a href="../ANIMES/DBZ.php">
             <img src="IMG/dragonball.jpg" alt="Foto do anime DragonBall" class="img-fluid">
             <h2>Dragonball</h2>
         </a>
     </div>
     <div>
-        <a href="../ANIMES/cdz.html">
+        <a href="../ANIMES/cdz.php">
             <img src="IMG/cavaleitos.jpg" alt="Foto do anime Cavaleiros do Zodiaco" class="img-fluid">
             <h2>Cavaleiros do Zodíaco</h2>
         </a>
     </div>
     <div>
-        <a href="../ANIMES/tokyoGhoul.html">
+        <a href="../ANIMES/tokyoGhoul.php">
             <img src="IMG/tokyoghoul.jpg" alt="Foto do anime Tokyo Ghoul" class="img-fluid">
             <h2>Tokyo Ghoul</h2>
         </a>
     </div>
     <div>
-        <a href="../ANIMES/tokyoRevengers.html">
+        <a href="../ANIMES/tokyoRevengers.php">
             <img src="IMG/tokyo_revengers.jpg" alt="Foto do anime Tokyo Revengers" class="img-fluid">
             <h2>Tokyo Revengers</h2>
         </a>
     </div>
     <div>
-        <a href="../ANIMES/jujutsu.html">
+        <a href="../ANIMES/jujutsu.php">
             <img src="IMG/jujutsu.jpg" alt="Foto do anime Jujutsu Kaisen" class="img-fluid">
             <h2>Jujutsu Kaisen</h2>
         </a>
     </div>
     <div>
-        <a href="../ANIMES/demonSlayer.html">
+        <a href="../ANIMES/demonSlayer.php">
             <img src="IMG/kimetsu.jpg" alt="Foto do anime Demon Slayer" class="img-fluid">
             <h2>Demon Slayer</h2>
         </a>
     </div>
-
+ 
 </section>
 <br><br><br>
     <!-- conteudo site fim -->
@@ -148,7 +148,7 @@
     </ul>
 
     <img src="/Projeto-Final/IMG/logo_senac.png" alt="" class="img-fluid"> <a class="logo" href="#"></a>
-    
+    <br><br>
 </div>
 
 <div id="footer_copyright">

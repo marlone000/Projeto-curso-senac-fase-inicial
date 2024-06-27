@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tokyo Revengers</title>
+  <title>HunterXHunter</title>
   <link rel="stylesheet" href="/ANIMES/anime.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -15,32 +15,31 @@
   <!-- cabecalho inicio -->
   <header class="cabecalho">
     <nav>
-      <img src="/ANIMES/IMG/logo.png" alt=""> <a class="logo" href="#"></a>
+      <a class="logo" href="projeto-final.php"><img src="IMG/logo.png" alt="logo de um origami escrito anime code"> </a>
       <div class="mobile-menu">
         <div class="line1"></div>
         <div class="line2"></div>
         <div class="line3"></div>
       </div>
-      <ul class="nav-list">
-        <li class="lia"><a href="#">Início</a></li>
-        <li class="lia"><a href="#">Sobre</a></li>
+      <ul class="nav-list ">
+        <li><a href="projeto-final.php">Início</a></li>
+        <li><a href="/sobre/sobre.php">Sobre</a></li>
       </ul>
     </nav>
   </header>
   <!-- cabecalho fim -->
   <!-- card com conteudo -->
-  
-<div class="container">
+  <div class="container">
     <div class="row">
       <section class="flex col-11 section">
           <div class="row justify-content-start">
-            <img src="/ANIMES/IMG/tokyo_revengers.jpg" alt="" class="img-fluid">
-            <p class="text-start fs-4 col">Tokyo Revengers</p>
-            <p class="text-start">Autor: Ken Waki</p>
-            <p class="text-start">Nome em japonês: (東京卍リベンジャーズ) Tōkyō Ribenjāzu</p>
-            <p class="text-start">Capítulos do Mangá: 278 capítulos Manga: Terminou em 15 de Novembro de 2022.</p>
-            <p class="text-start">Quantidade de episódios: 24 episódios e ainda não acabou.</p>
-            <p class="text-start"> Sinopse: Tokyo Revengers gira em torno de Takemichi Hanagaki, um jovem de 26 anos malsucedido na vida, profissionalmente e em relações amorosas. Vive com problemas financeiros e ainda descobre que sua ex-namorada foi assassinada por uma gangue de Tóquio.</p>
+            <img src="/ANIMES/IMG/HxH.jpg" alt="" class="img-fluid">
+            <p class="text-start fs-4 col">HunterXHunter</p>
+            <p class="text-start">Autor: Yoshihiro Togashi</p>
+            <p class="text-start">Nome em japonês: (ハンター×ハンタ) Hantā x Hantā</p>
+            <p class="text-start">Capítulos do Mangá: 401 capítulos: Terminou em março de 2023</p>
+            <p class="text-start">Quantidade de episódios e se acabou o anime: 148 episódios e não acabou</p>
+            <p class="text-start">Gon Freecss é um garoto que descobre que seu pai, Ging, foi um Caçador e que, ao contrário do que Gon pensava, ele está vivo. Ao descobrir a verdade, o protagonista decide participar do teste para ser um Caçador e planeja usar as habilidades para localizar seu pai.</p>
           </div>
       </section>
     </div>
@@ -84,6 +83,7 @@
 </div>
   <!-- footer fim -->
  
+ 
   <script src="/ANIMES/anime.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -91,5 +91,3 @@
 </body>
  
 </html>
-
-

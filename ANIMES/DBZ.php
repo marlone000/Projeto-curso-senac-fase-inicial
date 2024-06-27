@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HunterXHunter</title>
+  <title>DragonBall</title>
   <link rel="stylesheet" href="/ANIMES/anime.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -15,15 +15,15 @@
   <!-- cabecalho inicio -->
   <header class="cabecalho">
     <nav>
-      <img src="/ANIMES/IMG/logo.png" alt=""> <a class="logo" href="#"></a>
+      <a class="logo" href="projeto-final.php"><img src="IMG/logo.png" alt="logo de um origami escrito anime code"> </a>
       <div class="mobile-menu">
         <div class="line1"></div>
         <div class="line2"></div>
         <div class="line3"></div>
       </div>
       <ul class="nav-list ">
-        <li class="lia"><a href="#">Início</a></li>
-        <li class="lia"><a href="#">Sobre</a></li>
+        <li><a href="projeto-final.php">Início</a></li>
+        <li><a href="/sobre/sobre.php">Sobre</a></li>
       </ul>
     </nav>
   </header>
@@ -33,13 +33,13 @@
     <div class="row">
       <section class="flex col-11 section">
           <div class="row justify-content-start">
-            <img src="/ANIMES/IMG/HxH.jpg" alt="" class="img-fluid">
-            <p class="text-start fs-4 col">HunterXHunter</p>
-            <p class="text-start">Autor: Yoshihiro Togashi</p>
-            <p class="text-start">Nome em japonês: (ハンター×ハンタ) Hantā x Hantā</p>
-            <p class="text-start">Capítulos do Mangá: 401 capítulos: Terminou em março de 2023</p>
-            <p class="text-start">Quantidade de episódios e se acabou o anime: 148 episódios e não acabou</p>
-            <p class="text-start">Gon Freecss é um garoto que descobre que seu pai, Ging, foi um Caçador e que, ao contrário do que Gon pensava, ele está vivo. Ao descobrir a verdade, o protagonista decide participar do teste para ser um Caçador e planeja usar as habilidades para localizar seu pai.</p>
+            <img src="/ANIMES/IMG/dragonball.jpg" alt="" class="img-fluid">
+            <p class="text-start fs-4 col">Dragon Ball</p>
+            <p class="text-start">Autor: Akira Toriyama e Takao Koyama</p>
+            <p class="text-start">Nome em japonês: (ドラゴンボール) Doragon Bōru</p>
+            <p class="text-start">Capítulos do Mangá: 519 capítulos: Terminou em junho de 1995</p>
+            <p class="text-start">Quantidade de episódios e se acabou o anime: 153 episódios e acabou em 31 de janeiro de 1996</p>
+            <p class="text-start">Dragon Ball conta a história de Son Goku, uma criança que aparentemente veio do espaço e é encontrada por um senhor de idade, Son Gohan, que o adota e o cria como neto. Com o tempo, o jovem cresce e se torna um exímio lutador de artes marciais, com força e habilidades sobre-humanas.</p>
           </div>
       </section>
     </div>

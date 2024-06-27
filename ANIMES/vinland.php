@@ -15,15 +15,15 @@
   <!-- cabecalho inicio -->
   <header class="cabecalho">
     <nav>
-      <img src="/ANIMES/IMG/logo.png" alt=""> <a class="logo" href="#"></a>
+      <a class="logo" href="projeto-final.php"><img src="IMG/logo.png" alt="logo de um origami escrito anime code"> </a>
       <div class="mobile-menu">
         <div class="line1"></div>
         <div class="line2"></div>
         <div class="line3"></div>
       </div>
       <ul class="nav-list ">
-        <li class="lia"><a href="#">Início</a></li>
-        <li class="lia"><a href="#">Sobre</a></li>
+        <li><a href="projeto-final.php">Início</a></li>
+        <li><a href="/sobre/sobre.php">Sobre</a></li>
       </ul>
     </nav>
   </header>

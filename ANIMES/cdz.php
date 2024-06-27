@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Demon Slayer</title>
+  <title>Cavaleiros do Zodíaco</title>
   <link rel="stylesheet" href="/ANIMES/anime.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -15,15 +15,15 @@
   <!-- cabecalho inicio -->
   <header class="cabecalho">
     <nav>
-      <img src="/ANIMES/IMG/logo.png" alt=""> <a class="logo" href="#"></a>
+      <a class="logo" href="projeto-final.php"><img src="IMG/logo.png" alt="logo de um origami escrito anime code"> </a>
       <div class="mobile-menu">
         <div class="line1"></div>
         <div class="line2"></div>
         <div class="line3"></div>
       </div>
-      <ul class="nav-list">
-        <li class="lia"><a href="#">Início</a></li>
-        <li class="lia"><a href="#">Sobre</a></li>
+      <ul class="nav-list ">
+        <li><a href="projeto-final.php">Início</a></li>
+        <li><a href="/sobre/sobre.php">Sobre</a></li>
       </ul>
     </nav>
   </header>
@@ -33,13 +33,13 @@
     <div class="row">
       <section class="flex col-11 section">
           <div class="row justify-content-start">
-            <img src="/ANIMES/IMG/kimetsu.jpg" alt="" class="img-fluid">
-            <p class="text-start fs-4 col">Demon Slayer</p>
-            <p class="text-start">Autor: Koyoharu Gotouge</p>
-            <p class="text-start">Nome em japonês: (鬼滅 きめつ の 刃 やいば) Kimetsu no Yaiba</p>
-            <p class="text-start">Capítulos do Mangá: 205 capítulos Manga: Terminou em maio de 2020.</p>
-            <p class="text-start">Quantidade de episódios: 26 episódios e ainda não acabou.</p>
-            <p class="text-start"> Sinopse: A história conta sobre um jovem chamado Tanjirō Kamado que ganha a vida vendendo carvão até descobrir que sua família foi massacrada por um demônio, restando apenas sua irmã, Nezuko, que foi infectada e está se tornando um oni. O protagonista, então, decide virar um caçador de demônios e buscar vingança.</p>
+            <img src="/ANIMES/IMG/cavaleitos.jpg" alt="" class="img-fluid">
+            <p class="text-start fs-4 col">Cavaleiros do Zodíaco</p>
+            <p class="text-start">Autor: Masami Kurumada</p>
+            <p class="text-start">Nome em japonês: ( 聖闘士星矢 セイントセイヤ) Seinto Seiya</p>
+            <p class="text-start">Capítulos do Mangá: 46 capítulos: Terminou em março de 1988 </p>
+            <p class="text-start">Quantidade de episódios e se acabou o anime: 114 episódios e acabou sendo cancelado antes do fim</p>
+            <p class="text-start">Um órfão chamado Seiya, forçado a ir ao Santuário na Grécia para obter a Armadura de Bronze de Pégaso, uma veste usada pelos 88 guerreiros da deusa grega Athena, conhecidos como Cavaleiros. Após despertar o poder dos Cavaleiros, que é uma essência espiritual chamada de Cosmo (que se originou com o Big Bang), Seiya rapidamente se torna o Cavaleiro de Pégaso e retorna ao Japão para encontrar sua irmã mais velha, pois esta havia desaparecido no mesmo dia em que ele foi ao Santuário. Saori Kido - a neta do homem responsável por enviar os órfãos para o treinamento - fez um trato com Seiya, pedindo para que participe de um torneio chamado de Guerra Galática, onde o vencedor dentre os cavaleiros de bronze receberia a Armadura de Ouro de Sagitário. O trato era que se Seiya vencesse o torneio, Saori ajudaria na busca por sua irmã.</p>
           </div>
       </section>
     </div>
